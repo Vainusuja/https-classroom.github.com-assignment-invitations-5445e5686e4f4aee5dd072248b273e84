@@ -1,0 +1,19 @@
+[{
+    "name": "vainavi",
+    "age": 25,
+    "city": "Banglore",
+    "amount": 1500
+},{
+    "name": "subhi",
+    "age": 19,
+    "city": "chennai",
+    "amount": 2000
+
+},
+{
+    "name": "saumi",
+    "age": 19,
+    "city": "ooty",
+    "amount": 2500
+
+}]
