@@ -6,7 +6,7 @@ app.use(express.json())//Middleware to parse JSON data
 const {v4: uuidv4} = require('uuid')//to generate id automatically in the backend
 
 //Connecting mongodb database
-mongoose.connect("mongodb://localhost:27017/expense").then(()=>{
+mongoose.connect("mongodb+srv://vainavi:vainavi@cluster0.z7d3z.mongodb.net/").then(()=>{
     console.log("Connected to database")
 })
 
