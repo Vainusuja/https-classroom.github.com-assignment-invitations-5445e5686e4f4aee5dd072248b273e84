@@ -2,10 +2,14 @@
 var express = require('express');
 const app = express()
 const mongoose = require("mongoose")
-app.use(express.json())//Middleware to parse JSON data  
+app.use(express.json())
+app.use('')
+//Middleware to parse JSON data  
 const {v4: uuidv4} = require('uuid')//to generate id automatically in the backend
+const cors=require('cors')
 
 //Connecting mongodb database
+
 mongoose.connect("mongodb+srv://vainavi:vainavi@cluster0.z7d3z.mongodb.net/").then(()=>{
     console.log("Connected to database")
 })
